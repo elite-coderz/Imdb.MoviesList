@@ -41,7 +41,8 @@ public class MoviesController : ControllerBase
         new Movie { Id = 1, Title = "Inception", Genre = "Sci-Fi", Year = 2010 },
         new Movie { Id = 2, Title = "The Godfather", Genre = "Crime", Year = 1972 },
         new Movie { Id = 3, Title = "Interstellar", Genre = "Sci-Fi", Year = 2014 },
-        new Movie { Id = 4, Title = "The Dark Knight", Genre = "Action", Year = 2008 }
+        new Movie { Id = 4, Title = "The Dark Knight", Genre = "Action", Year = 2008 },
+        new Movie { Id = 5, Title = "Pulp Fiction", Genre = "Crime", Year = 1994 }
     };
 }
 
