@@ -1,0 +1,6 @@
+@Imdb.MoviesList_HostAddress = http://localhost:5250
+
+GET {{Imdb.MoviesList_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
