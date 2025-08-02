@@ -1,5 +1,5 @@
 
-using LoggingLibrary.Middleware;
+//using LoggingLibrary.Middleware;
 
 namespace Imdb.MoviesList
 {
