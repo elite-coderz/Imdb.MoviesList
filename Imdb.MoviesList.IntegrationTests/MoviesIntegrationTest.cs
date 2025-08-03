@@ -29,7 +29,7 @@ namespace Imdb.MoviesList.IntegrationTests
 
             var movies = await response.Content.ReadFromJsonAsync<List<Movie>>();
             movies.Should().NotBeNull();
-            movies!.Count.Should().Be(4);
+            movies!.Count.Should().Be(5);
         }
 
         [Fact]
