@@ -26,7 +26,7 @@ jobs:
       run: |
         dotnet sonarscanner begin \
           /k:"elite-coderz" \
-          /o:"your_org" \
+          /o:"elite-coderz" \
           /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
     - name: Build project
