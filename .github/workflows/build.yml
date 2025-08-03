@@ -25,7 +25,7 @@ jobs:
     - name: Begin SonarCloud analysis
       run: |
         dotnet sonarscanner begin \
-          /k:"elite-coderz" \
+          /k:"Imdb.MoviesList" \
           /o:"elite-coderz" \
           /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
 
