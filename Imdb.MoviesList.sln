@@ -5,6 +5,10 @@ VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb.MoviesList", "Imdb.MoviesList\Imdb.MoviesList.csproj", "{755BA589-4732-4D72-894E-6013279059E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb.MoviesList.UnitTests", "Imdb.MoviesList.UnitTests\Imdb.MoviesList.UnitTests.csproj", "{127BE40B-656F-496D-92B5-2DA972EAB8F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb.MoviesList.IntegrationTests", "Imdb.MoviesList.IntegrationTests\Imdb.MoviesList.IntegrationTests.csproj", "{B654CCD5-2C0E-4F9D-AB6B-4ACA06EB2FA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{755BA589-4732-4D72-894E-6013279059E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{755BA589-4732-4D72-894E-6013279059E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{755BA589-4732-4D72-894E-6013279059E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127BE40B-656F-496D-92B5-2DA972EAB8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127BE40B-656F-496D-92B5-2DA972EAB8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127BE40B-656F-496D-92B5-2DA972EAB8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127BE40B-656F-496D-92B5-2DA972EAB8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B654CCD5-2C0E-4F9D-AB6B-4ACA06EB2FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B654CCD5-2C0E-4F9D-AB6B-4ACA06EB2FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B654CCD5-2C0E-4F9D-AB6B-4ACA06EB2FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B654CCD5-2C0E-4F9D-AB6B-4ACA06EB2FA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
