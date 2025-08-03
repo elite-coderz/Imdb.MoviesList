@@ -2,10 +2,7 @@ using System.Net;
 using System.Net.Http.Json;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
-using MovieApiDemo;
 using MovieApiDemo.Controllers;
-using Xunit;
 
 namespace Imdb.MoviesList.IntegrationTests
 {
